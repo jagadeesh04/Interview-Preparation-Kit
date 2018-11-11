@@ -39,7 +39,7 @@ public class Solution {
     }*/
 	
 	// Complete the countingValleys function below.
-   /* static int countingValleys(int n, String s) {
+    /*static int countingValleys(int n, String s) {
     	
     	int finalResult = 0;
     	int seaLevel =0;
@@ -87,7 +87,7 @@ public class Solution {
 	 }
 	 
 	// Complete the repeatedString function below.
-	    static long repeatedString(String s, long n) {
+	   /* static long repeatedString(String s, long n) {
 	    	
 	    	if(!s.contains("a")){
 	    		return 0;
@@ -121,7 +121,7 @@ public class Solution {
 	    	}
 	    	
 	    	
-	    }
+	    }*/
 
     private static final Scanner scanner = new Scanner(System.in);
 
@@ -155,17 +155,17 @@ public class Solution {
     	
     	//int[] c ={0, 0, 1, 0, 0, 1, 0};
     	
-    	//int[] c ={0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
+    	int[] c ={0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
     	
-    	//int result = jumpingOnClouds(c);
+    	int result = jumpingOnClouds(c);
     	
-    	String s = "abcac";
+    	/*String s = "abcac";
     	int n = 12;
     	
-    	/*String s = "a";
-    	long n = 1000000000000L;*/
+    	String s = "a";
+    	long n = 1000000000000L;
     	
-    	long result = repeatedString(s, n);
+    	long result = repeatedString(s, n);*/
     	
     	
     	System.out.println(String.valueOf(result));
