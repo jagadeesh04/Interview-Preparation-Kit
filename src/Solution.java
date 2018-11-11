@@ -39,7 +39,7 @@ public class Solution {
     }*/
 	
 	// Complete the countingValleys function below.
-    /*static int countingValleys(int n, String s) {
+    static int countingValleys(int n, String s) {
     	
     	int finalResult = 0;
     	int seaLevel =0;
@@ -56,9 +56,9 @@ public class Solution {
     	}
 
     	return finalResult;
-    }*/
+    }
 	
-	 static int jumpingOnClouds(int[] c) {
+	 /*static int jumpingOnClouds(int[] c) {
 		 
 		 int result = 0;
 		 
@@ -84,7 +84,7 @@ public class Solution {
 		 }
 		
 		
-	 }
+	 }*/
 	 
 	// Complete the repeatedString function below.
 	   /* static long repeatedString(String s, long n) {
@@ -145,9 +145,9 @@ public class Solution {
     	int[] ar = {10, 20, 20, 10, 10, 30, 50, 10, 20};
 
         int result = sockMerchant(n, ar);*/
-    	/*int n = 12;
+    	int n = 12;
     	String s = "DDUUDDUDUUUD";
-    	int result = countingValleys(n, s);*/
+    	int result = countingValleys(n, s);
     	
     	//int[] c ={0, 0, 0, 0, 1, 0};
     	
@@ -155,9 +155,9 @@ public class Solution {
     	
     	//int[] c ={0, 0, 1, 0, 0, 1, 0};
     	
-    	int[] c ={0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
+    	/*int[] c ={0, 0, 1, 0, 0, 0, 0, 1, 0, 0};
     	
-    	int result = jumpingOnClouds(c);
+    	int result = jumpingOnClouds(c);*/
     	
     	/*String s = "abcac";
     	int n = 12;
