@@ -1,10 +1,12 @@
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Solution {
 
     // Complete the sockMerchant function below.
-    /*static int sockMerchant(int n, int[] ar) {
+    static int sockMerchant(int n, int[] ar) {
 		
     	Map<Integer, Integer> map = new HashMap();
     	
@@ -36,10 +38,10 @@ public class Solution {
     	return result;
 
 
-    }*/
+    }
 	
 	// Complete the countingValleys function below.
-    static int countingValleys(int n, String s) {
+    /*static int countingValleys(int n, String s) {
     	
     	int finalResult = 0;
     	int seaLevel =0;
@@ -56,7 +58,7 @@ public class Solution {
     	}
 
     	return finalResult;
-    }
+    }*/
 	
 	 /*static int jumpingOnClouds(int[] c) {
 		 
@@ -141,13 +143,13 @@ public class Solution {
             ar[i] = arItem;
         }*/
     	
-    	/*int n = 9;
+    	int n = 9;
     	int[] ar = {10, 20, 20, 10, 10, 30, 50, 10, 20};
 
-        int result = sockMerchant(n, ar);*/
-    	int n = 12;
+        int result = sockMerchant(n, ar);
+    	/*int n = 12;
     	String s = "DDUUDDUDUUUD";
-    	int result = countingValleys(n, s);
+    	int result = countingValleys(n, s);*/
     	
     	//int[] c ={0, 0, 0, 0, 1, 0};
     	
